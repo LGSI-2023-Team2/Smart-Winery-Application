@@ -30,5 +30,4 @@ data class WineInfo(private val col:Int
     var Wine_Temp:Int?=temp
     var Wine_Type:String? = type
     var Wine_Pairings:List<PairingInfo>? = pairings
-
 }

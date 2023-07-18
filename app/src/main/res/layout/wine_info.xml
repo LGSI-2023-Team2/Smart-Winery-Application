@@ -131,7 +131,7 @@
                         android:textStyle="bold" />
 
                     <ImageView
-                        android:id="@+id/tanin_level"
+                        android:id="@+id/tannin_level"
                         android:layout_width="80dp"
 
                         android:layout_height="11dp"
@@ -144,7 +144,9 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:id="@+id/aromaContainer"
+                android:visibility="visible">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -158,39 +160,114 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp">
 
-                    <ImageView
-                        android:id="@+id/aroma1"
+                    <LinearLayout
                         android:layout_width="30dp"
-                        android:layout_height="30dp"
+                        android:layout_height="45dp"
                         android:layout_marginRight="10dp"
-                        android:background="@drawable/aroma_berry" />
+                        android:orientation="vertical"
+                        android:id="@+id/aroma1">
 
-                    <ImageView
-                        android:id="@+id/aroma2"
+                        <ImageView
+                            android:id="@+id/aroma1img"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/aroma_berry" />
+
+                        <TextView
+                            android:id="@+id/aroma1txt"
+                            android:layout_height="10dp"
+                            android:layout_width="30dp"
+                            android:text="아시아"
+                            android:textSize="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
                         android:layout_width="30dp"
-                        android:layout_height="30dp"
+                        android:layout_height="45dp"
                         android:layout_marginRight="10dp"
-                        android:background="@drawable/aroma_apple" />
+                        android:orientation="vertical"
+                        android:id="@+id/aroma2">
 
-                    <ImageView
-                        android:id="@+id/aroma3"
+                        <ImageView
+                            android:id="@+id/aroma2img"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/aroma_apple" />
+
+                        <TextView
+                            android:id="@+id/aroma2txt"
+                            android:layout_height="10dp"
+                            android:layout_width="30dp"
+                            android:text="아시아"
+                            android:textSize="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
                         android:layout_width="30dp"
-                        android:layout_height="30dp"
+                        android:layout_height="45dp"
                         android:layout_marginRight="10dp"
-                        android:background="@drawable/aroma_croissant" />
+                        android:orientation="vertical"
+                        android:id="@+id/aroma3">
 
-                    <ImageView
-                        android:id="@+id/aroma4"
+                        <ImageView
+                            android:id="@+id/aroma3img"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/aroma_croissant" />
+
+                        <TextView
+                            android:id="@+id/aroma3txt"
+                            android:layout_height="10dp"
+                            android:layout_width="30dp"
+                            android:text="아시아"
+                            android:textSize="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
                         android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:background="@drawable/aroma_herbal" />
+                        android:layout_height="45dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical"
+                        android:id="@+id/aroma4">
+
+                        <ImageView
+                            android:id="@+id/aroma4img"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/aroma_herbal" />
+
+                        <TextView
+                            android:id="@+id/aroma41txt"
+                            android:layout_height="10dp"
+                            android:layout_width="30dp"
+                            android:text="아시아"
+                            android:textSize="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
                 </LinearLayout>
 
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:id="@+id/pairingContainer"
+                android:visibility="visible">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -204,34 +281,105 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp">
 
-                    <ImageView
-                        android:id="@+id/pair1"
+                    <LinearLayout
                         android:layout_width="30dp"
-                        android:layout_height="30dp"
+                        android:layout_height="45dp"
                         android:layout_marginRight="10dp"
-                        android:background="@drawable/pair_asia" />
+                        android:orientation="vertical"
+                        android:id="@+id/pair1">
 
-                    <ImageView
-                        android:id="@+id/pair2"
+                        <ImageView
+                            android:id="@+id/pair1img"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/pair_asia" />
+
+                        <TextView
+                            android:id="@+id/pair1txt"
+                            android:layout_height="10dp"
+                            android:layout_width="30dp"
+                            android:text="아시아"
+                            android:textSize="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
                         android:layout_width="30dp"
-                        android:layout_height="30dp"
+                        android:layout_height="45dp"
                         android:layout_marginRight="10dp"
-                        android:background="@drawable/pair_beef" />
+                        android:orientation="vertical"
+                        android:id="@+id/pair2">
 
-                    <ImageView
-                        android:id="@+id/pair3"
+                        <ImageView
+                            android:id="@+id/pair2img"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/pair_beef" />
+
+                        <TextView
+                            android:id="@+id/pair2txt"
+                            android:layout_height="10dp"
+                            android:layout_width="30dp"
+                            android:text="아시아"
+                            android:textSize="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
                         android:layout_width="30dp"
-                        android:layout_height="30dp"
+                        android:layout_height="45dp"
                         android:layout_marginRight="10dp"
-                        android:background="@drawable/pair_chicken" />
+                        android:orientation="vertical"
+                        android:id="@+id/pair3">
 
-                    <ImageView
-                        android:id="@+id/pair4"
+                        <ImageView
+                            android:id="@+id/pair3img"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/pair_chicken" />
+
+                        <TextView
+                            android:id="@+id/pair3txt"
+                            android:layout_height="10dp"
+                            android:layout_width="30dp"
+                            android:text="아시아"
+                            android:textSize="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
                         android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:background="@drawable/pair_champagne" />
+                        android:layout_height="45dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="vertical"
+                        android:id="@+id/pair4">
+
+                        <ImageView
+                            android:id="@+id/pair4img"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/pair_champagne" />
+
+                        <TextView
+                            android:id="@+id/pair4txt"
+                            android:layout_height="10dp"
+                            android:layout_width="30dp"
+                            android:text="아시아"
+                            android:textSize="5dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"/>
+
+                    </LinearLayout>
                 </LinearLayout>
-
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
